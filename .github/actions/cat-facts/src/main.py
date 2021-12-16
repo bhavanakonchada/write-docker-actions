@@ -18,4 +18,4 @@ random_fact = select_random_fact(fact_list)
 
 print(random_fact)
 
-print(f"::set-output name =fact::{random_fact}")
+print(f"::set-output name=fact::{random_fact}")
